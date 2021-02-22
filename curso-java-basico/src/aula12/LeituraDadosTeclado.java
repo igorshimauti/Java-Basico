@@ -28,5 +28,7 @@ public class LeituraDadosTeclado {
 		} else {
 			System.out.println("Não possui animal de estimação");
 		}
+		
+		scan.close();
 	}
 }
